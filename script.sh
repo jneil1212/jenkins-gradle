@@ -1,5 +1,5 @@
 #!/bin/bash
-export WORKSPACE=`pwd`
+#export WORKSPACE=`pwd`
 
 # Create/Activate virtualenv
 virtualenv venv
@@ -12,5 +12,5 @@ pip install -r requirements.txt
 python manage.py test
 
 # Deactivate virtualenv
-deactivate
+#deactivate
 
