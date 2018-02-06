@@ -1,5 +1,5 @@
 task execScript(type:Exec) {
-	workingDir System.getEnv.WORKSPACE
+	workingDir System.env.WORKSPACE
 	commandLine 'sh', './script.sh'
 }
 
