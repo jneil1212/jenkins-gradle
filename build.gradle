@@ -1,0 +1,4 @@
+task execScript(type:Exec) {
+	commandLine 'sh', './script.sh'
+}
+
