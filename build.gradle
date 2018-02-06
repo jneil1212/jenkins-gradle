@@ -1,4 +1,5 @@
 task execScript(type:Exec) {
+	workingDir System.getProperty("user.dir")
 	commandLine 'sh', './script.sh'
 }
 
