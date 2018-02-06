@@ -3,5 +3,3 @@ task execScript(type:Exec) {
 	commandLine 'sh', './script.sh'
 }
 
-build.dependsOn execScript
-
